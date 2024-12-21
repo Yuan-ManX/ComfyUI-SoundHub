@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-soundhub"
+description = "ComfyUI-SoundHub is a collection of audio processing nodes designed for ComfyUI, enabling seamless audio processing and generation within your ComfyUI workflows."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["librosa", "numpy", "torchaudio", "torch"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-SoundHub"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SoundHub"
+Icon = ""
